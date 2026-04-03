@@ -17,7 +17,7 @@ export default function AboutSection() {
     <section id="about" className="py-20 px-4 bg-section-alt">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          수남 <span className="text-accent-dark">소개</span>
+          수남 <span className="anime-shimmer-text anime-underline">소개</span>
         </h2>
         <p className="text-center text-foreground/60 mb-12 max-w-2xl mx-auto">
           수남은 많은 팬들에게 사랑받는 아티스트입니다. 뛰어난 실력과 따뜻한 인성으로
@@ -29,7 +29,7 @@ export default function AboutSection() {
           {stats.map((stat) => (
             <div
               key={stat.label}
-              className="bg-card-bg rounded-2xl p-6 text-center shadow-sm"
+              className="bg-card-bg rounded-2xl p-6 text-center shadow-sm anime-card"
             >
               <div className="text-3xl font-bold text-accent-dark mb-1">
                 {stat.value}
@@ -44,7 +44,7 @@ export default function AboutSection() {
           {traits.map((trait) => (
             <div
               key={trait.title}
-              className="bg-card-bg rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"
+              className="bg-card-bg rounded-2xl p-6 anime-card"
             >
               <div className="text-4xl mb-4">{trait.emoji}</div>
               <h3 className="font-semibold text-lg mb-2">{trait.title}</h3>

@@ -13,21 +13,22 @@ export default function HeroSection() {
 
       <div className="relative z-10">
         {/* Profile image placeholder */}
-        <div className="w-40 h-40 mx-auto mb-8 rounded-full bg-gradient-to-br from-accent to-accent-dark flex items-center justify-center text-6xl shadow-lg animate-fade-in-up">
-          <span role="img" aria-label="수남">&#x1F31F;</span>
+        <div className="w-40 h-40 mx-auto mb-8 rounded-full bg-gradient-to-br from-accent to-accent-dark flex items-center justify-center text-6xl shadow-lg anime-bounce-in anime-pulse-ring">
+          <span role="img" aria-label="수남" className="anime-star">&#x1F31F;</span>
         </div>
 
-        <h1 className="text-5xl md:text-7xl font-bold mb-4 animate-fade-in-up animate-delay-200">
-          <span className="text-accent-dark">수남</span>을 응원합니다
+        <h1 className="text-5xl md:text-7xl font-bold mb-4 anime-bounce-in" style={{ animationDelay: "0.2s" }}>
+          <span className="anime-shimmer-text">수남</span>을 응원합니다
         </h1>
 
-        <p className="text-lg md:text-xl text-foreground/70 max-w-2xl mx-auto mb-8 animate-fade-in-up animate-delay-400">
+        <p className="text-lg md:text-xl text-foreground/70 max-w-2xl mx-auto mb-8 anime-bounce-in" style={{ animationDelay: "0.4s" }}>
           수남의 모든 것을 한 곳에서. 팬들이 함께 만들어가는 공간입니다.
         </p>
 
         <a
           href="#about"
-          className="inline-block px-8 py-3 bg-accent-dark text-white rounded-full font-medium hover:opacity-90 transition-opacity animate-fade-in-up animate-delay-600"
+          className="inline-block px-8 py-3 bg-accent-dark text-white rounded-full font-medium hover:opacity-90 transition-opacity anime-bounce-in anime-wiggle"
+          style={{ animationDelay: "0.6s" }}
         >
           더 알아보기
         </a>

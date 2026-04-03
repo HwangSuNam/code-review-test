@@ -12,7 +12,7 @@ export default function GallerySection() {
     <section id="gallery" className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          포토 <span className="text-accent-dark">갤러리</span>
+          포토 <span className="anime-shimmer-text anime-underline">갤러리</span>
         </h2>
         <p className="text-center text-foreground/60 mb-12">
           수남의 다양한 모습을 만나보세요
@@ -22,7 +22,7 @@ export default function GallerySection() {
           {galleryItems.map((item) => (
             <div
               key={item.id}
-              className="group relative aspect-[4/3] rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all cursor-pointer"
+              className="group relative aspect-[4/3] rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all cursor-pointer anime-gallery-item"
             >
               {/* Placeholder gradient */}
               <div
