@@ -1,12 +1,16 @@
 "use client";
 
 import { useState } from "react";
+import ThemeToggle from "./ThemeToggle";
 
 const navLinks = [
   { href: "#hero", label: "홈" },
   { href: "#about", label: "소개" },
+  { href: "#music", label: "음악" },
   { href: "#gallery", label: "갤러리" },
   { href: "#timeline", label: "연혁" },
+  { href: "#events", label: "이벤트" },
+  { href: "#quiz", label: "퀴즈" },
   { href: "#fan-messages", label: "팬 메시지" },
 ];
 
@@ -21,29 +25,35 @@ export default function Header() {
         </a>
 
         {/* Desktop nav */}
-        <ul className="hidden md:flex gap-6">
-          {navLinks.map((link) => (
-            <li key={link.href}>
-              <a
-                href={link.href}
-                className="text-sm font-medium hover:text-accent-dark transition-colors"
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
-        </ul>
+        <div className="hidden md:flex items-center gap-6">
+          <ul className="flex gap-6">
+            {navLinks.map((link) => (
+              <li key={link.href}>
+                <a
+                  href={link.href}
+                  className="text-sm font-medium hover:text-accent-dark transition-colors"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <ThemeToggle />
+        </div>
 
-        {/* Mobile hamburger */}
-        <button
-          className="md:hidden p-2"
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="메뉴 열기"
-        >
-          <div className="w-5 h-0.5 bg-foreground mb-1" />
-          <div className="w-5 h-0.5 bg-foreground mb-1" />
-          <div className="w-5 h-0.5 bg-foreground" />
-        </button>
+        {/* Mobile controls */}
+        <div className="flex md:hidden items-center gap-2">
+          <ThemeToggle />
+          <button
+            className="p-2"
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label="메뉴 열기"
+          >
+            <div className="w-5 h-0.5 bg-foreground mb-1" />
+            <div className="w-5 h-0.5 bg-foreground mb-1" />
+            <div className="w-5 h-0.5 bg-foreground" />
+          </button>
+        </div>
       </nav>
 
       {/* Mobile menu */}
