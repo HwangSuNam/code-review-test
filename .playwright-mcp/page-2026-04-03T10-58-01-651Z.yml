@@ -1,0 +1,4 @@
+- generic [active] [ref=e1]:
+  - article [ref=e2]:
+    - heading "인증 확인 중" [level=2] [ref=e6]
+  - alert [ref=e7]

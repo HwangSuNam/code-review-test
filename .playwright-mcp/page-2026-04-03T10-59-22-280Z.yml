@@ -1,0 +1,147 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "수남 Fan Page" [ref=e4] [cursor=pointer]:
+        - /url: "#hero"
+      - list [ref=e5]:
+        - listitem [ref=e6]:
+          - link "홈" [ref=e7] [cursor=pointer]:
+            - /url: "#hero"
+        - listitem [ref=e8]:
+          - link "소개" [ref=e9] [cursor=pointer]:
+            - /url: "#about"
+        - listitem [ref=e10]:
+          - link "갤러리" [ref=e11] [cursor=pointer]:
+            - /url: "#gallery"
+        - listitem [ref=e12]:
+          - link "연혁" [ref=e13] [cursor=pointer]:
+            - /url: "#timeline"
+        - listitem [ref=e14]:
+          - link "팬 메시지" [ref=e15] [cursor=pointer]:
+            - /url: "#fan-messages"
+  - main [ref=e16]:
+    - generic [ref=e22]:
+      - img "수남" [ref=e24]: 🌟
+      - heading "수남을 응원합니다" [level=1] [ref=e25]
+      - paragraph [ref=e26]: 수남의 모든 것을 한 곳에서. 팬들이 함께 만들어가는 공간입니다.
+      - link "더 알아보기" [ref=e27] [cursor=pointer]:
+        - /url: "#about"
+    - generic [ref=e29]:
+      - heading "수남 소개" [level=2] [ref=e30]
+      - paragraph [ref=e31]: 수남은 많은 팬들에게 사랑받는 아티스트입니다. 뛰어난 실력과 따뜻한 인성으로 팬들의 마음을 사로잡고 있습니다.
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: 10년+
+          - generic [ref=e35]: 활동 기간
+        - generic [ref=e36]:
+          - generic [ref=e37]: 100만+
+          - generic [ref=e38]: 팬 수
+        - generic [ref=e39]:
+          - generic [ref=e40]: 50+
+          - generic [ref=e41]: 작품 수
+        - generic [ref=e42]:
+          - generic [ref=e43]: 20+
+          - generic [ref=e44]: 수상
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]: 🎤
+          - heading "뛰어난 실력" [level=3] [ref=e48]
+          - paragraph [ref=e49]: 언제나 완벽한 퍼포먼스
+        - generic [ref=e50]:
+          - generic [ref=e51]: 💖
+          - heading "팬 사랑" [level=3] [ref=e52]
+          - paragraph [ref=e53]: 팬들과의 소통을 최우선으로
+        - generic [ref=e54]:
+          - generic [ref=e55]: ✨
+          - heading "끊임없는 성장" [level=3] [ref=e56]
+          - paragraph [ref=e57]: 매번 새로운 모습을 보여주는 도전 정신
+        - generic [ref=e58]:
+          - generic [ref=e59]: 🌍
+          - heading "글로벌 활동" [level=3] [ref=e60]
+          - paragraph [ref=e61]: 전 세계를 무대로 활약
+    - generic [ref=e63]:
+      - heading "포토 갤러리" [level=2] [ref=e64]
+      - paragraph [ref=e65]: 수남의 다양한 모습을 만나보세요
+      - generic [ref=e66]:
+        - generic [ref=e67] [cursor=pointer]:
+          - generic [ref=e70]: 📷
+          - heading "무대 위의 수남" [level=3] [ref=e72]
+        - generic [ref=e73] [cursor=pointer]:
+          - generic [ref=e76]: 📷
+          - heading "팬미팅 현장" [level=3] [ref=e78]
+        - generic [ref=e79] [cursor=pointer]:
+          - generic [ref=e82]: 📷
+          - heading "비하인드 컷" [level=3] [ref=e84]
+        - generic [ref=e85] [cursor=pointer]:
+          - generic [ref=e88]: 📷
+          - heading "화보 촬영" [level=3] [ref=e90]
+        - generic [ref=e91] [cursor=pointer]:
+          - generic [ref=e94]: 📷
+          - heading "콘서트 현장" [level=3] [ref=e96]
+        - generic [ref=e97] [cursor=pointer]:
+          - generic [ref=e100]: 📷
+          - heading "일상 모습" [level=3] [ref=e102]
+      - paragraph [ref=e103]: "* 실제 이미지는 추후 추가 예정입니다"
+    - generic [ref=e105]:
+      - heading "수남의 발자취" [level=2] [ref=e106]
+      - paragraph [ref=e107]: 수남과 함께한 소중한 순간들
+      - generic [ref=e110]:
+        - generic [ref=e113]:
+          - generic [ref=e114]: "2015"
+          - heading "데뷔" [level=3] [ref=e115]
+          - paragraph [ref=e116]: 첫 번째 작품으로 데뷔하며 활동 시작
+        - generic [ref=e119]:
+          - generic [ref=e120]: "2017"
+          - heading "첫 수상" [level=3] [ref=e121]
+          - paragraph [ref=e122]: 신인상을 수상하며 실력을 인정받음
+        - generic [ref=e125]:
+          - generic [ref=e126]: "2019"
+          - heading "대표작 탄생" [level=3] [ref=e127]
+          - paragraph [ref=e128]: 대중의 큰 사랑을 받은 대표작 발표
+        - generic [ref=e131]:
+          - generic [ref=e132]: "2021"
+          - heading "글로벌 진출" [level=3] [ref=e133]
+          - paragraph [ref=e134]: 해외 활동을 시작하며 글로벌 팬덤 형성
+        - generic [ref=e137]:
+          - generic [ref=e138]: "2023"
+          - heading "대상 수상" [level=3] [ref=e139]
+          - paragraph [ref=e140]: 최고의 영예인 대상을 수상
+        - generic [ref=e143]:
+          - generic [ref=e144]: "2025"
+          - heading "10주년" [level=3] [ref=e145]
+          - paragraph [ref=e146]: 데뷔 10주년을 맞이하며 팬들과 함께 축하
+    - generic [ref=e148]:
+      - heading "팬 메시지" [level=2] [ref=e149]
+      - paragraph [ref=e150]: 수남에게 응원의 메시지를 남겨주세요
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - textbox "닉네임" [ref=e153]
+          - textbox "응원 메시지를 입력하세요..." [ref=e154]
+        - button "메시지 남기기" [active] [ref=e155]
+      - generic [ref=e156]:
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - generic [ref=e187]: 테스트팬
+            - generic [ref=e188]: 2026-04-03
+          - paragraph [ref=e189]: Playwright로 테스트 중! 수남 화이팅!
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - generic [ref=e159]: 별빛팬
+            - generic [ref=e160]: 2026-04-01
+          - paragraph [ref=e161]: 수남, 항상 응원해요! 무대 위에서 빛나는 모습이 너무 좋아요.
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e164]: 행복이
+            - generic [ref=e165]: 2026-03-28
+          - paragraph [ref=e166]: 덕분에 매일이 행복합니다. 앞으로도 함께 걸어가요!
+        - generic [ref=e167]:
+          - generic [ref=e168]:
+            - generic [ref=e169]: 영원한팬
+            - generic [ref=e170]: 2026-03-25
+          - paragraph [ref=e171]: 10주년 축하해요! 다음 10년도 함께할게요.
+  - contentinfo [ref=e172]:
+    - paragraph [ref=e173]: Made with ❤️ by fans, for fans
+    - paragraph [ref=e174]: © 2026 수남 Fan Page — Next.js 기술 스터디 프로젝트
+  - button "Open Next.js Dev Tools" [ref=e180] [cursor=pointer]:
+    - img [ref=e181]
+  - alert [ref=e184]
