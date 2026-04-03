@@ -25,13 +25,14 @@ export default function HeroSection() {
           수남의 모든 것을 한 곳에서. 팬들이 함께 만들어가는 공간입니다.
         </p>
 
-        <a
-          href="#about"
-          className="inline-block px-8 py-3 bg-accent-dark text-white rounded-full font-medium hover:opacity-90 transition-opacity anime-bounce-in anime-wiggle"
-          style={{ animationDelay: "0.6s" }}
-        >
-          더 알아보기
-        </a>
+        <div className="anime-bounce-in" style={{ animationDelay: "0.6s" }}>
+          <a
+            href="#about"
+            className="inline-block px-8 py-3 bg-accent-dark text-white rounded-full font-medium hover:opacity-90 transition-opacity anime-wiggle"
+          >
+            더 알아보기
+          </a>
+        </div>
       </div>
     </section>
   );

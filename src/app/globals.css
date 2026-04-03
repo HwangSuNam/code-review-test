@@ -356,5 +356,37 @@ html {
   height: 3px;
   background: linear-gradient(90deg, transparent, var(--accent-dark), transparent);
   border-radius: 2px;
-  animation: neonPulse 2.5s ease-in-out infinite;
+  animation: underlineGlow 2.5s ease-in-out infinite;
+}
+
+@keyframes underlineGlow {
+  0%, 100% {
+    opacity: 0.5;
+    box-shadow: 0 0 4px var(--accent-dark);
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 12px var(--accent-dark);
+  }
+}
+
+/* Accessibility: disable animations for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .sakura-petal,
+  .sparkle,
+  .anime-bounce-in,
+  .anime-star,
+  .anime-dot,
+  .anime-glow,
+  .anime-underline::after {
+    animation: none;
+  }
+  .anime-wiggle:hover {
+    animation: none;
+  }
+  .anime-shimmer-text {
+    background: var(--accent-dark);
+    -webkit-text-fill-color: initial;
+    color: var(--accent-dark);
+  }
 }

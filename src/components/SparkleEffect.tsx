@@ -27,7 +27,7 @@ export default function SparkleEffect() {
   if (sparkles.length === 0) return null;
 
   return (
-    <div className="fixed inset-0 pointer-events-none z-30 overflow-hidden">
+    <div className="fixed inset-0 pointer-events-none z-30 overflow-hidden" aria-hidden="true">
       {sparkles.map((s) => (
         <div
           key={s.id}

@@ -29,7 +29,7 @@ export default function SakuraParticles() {
   if (petals.length === 0) return null;
 
   return (
-    <div className="fixed inset-0 pointer-events-none z-40 overflow-hidden">
+    <div className="fixed inset-0 pointer-events-none z-40 overflow-hidden" aria-hidden="true">
       {petals.map((petal) => (
         <div
           key={petal.id}
