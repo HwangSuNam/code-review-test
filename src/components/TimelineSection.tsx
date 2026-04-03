@@ -36,7 +36,7 @@ export default function TimelineSection() {
     <section id="timeline" className="py-20 px-4 bg-section-alt">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          수남의 <span className="text-accent-dark">발자취</span>
+          수남의 <span className="anime-shimmer-text anime-underline">발자취</span>
         </h2>
         <p className="text-center text-foreground/60 mb-12">
           수남과 함께한 소중한 순간들
@@ -55,7 +55,7 @@ export default function TimelineSection() {
                 }`}
               >
                 {/* Dot */}
-                <div className="absolute left-4 md:left-1/2 w-4 h-4 bg-accent-dark rounded-full -translate-x-1/2 mt-1 z-10 shadow" />
+                <div className="absolute left-4 md:left-1/2 w-4 h-4 bg-accent-dark rounded-full -translate-x-1/2 mt-1 z-10 shadow anime-dot" />
 
                 {/* Content */}
                 <div

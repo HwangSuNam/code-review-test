@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-accent/20">
       <nav className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-        <a href="#hero" className="text-xl font-bold text-accent-dark">
+        <a href="#hero" className="text-xl font-bold anime-glow anime-underline">
           수남 Fan Page
         </a>
 

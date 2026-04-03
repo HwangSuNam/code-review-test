@@ -55,7 +55,7 @@ export default function FanMessageSection() {
     <section id="fan-messages" className="py-20 px-4">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          팬 <span className="text-accent-dark">메시지</span>
+          팬 <span className="anime-shimmer-text anime-underline">메시지</span>
         </h2>
         <p className="text-center text-foreground/60 mb-12">
           수남에게 응원의 메시지를 남겨주세요
@@ -95,7 +95,7 @@ export default function FanMessageSection() {
           {messages.map((msg) => (
             <div
               key={msg.id}
-              className="bg-card-bg rounded-2xl p-5 shadow-sm hover:shadow-md transition-shadow"
+              className="bg-card-bg rounded-2xl p-5 anime-card"
             >
               <div className="flex items-center justify-between mb-2">
                 <span className="font-semibold text-accent-dark">
